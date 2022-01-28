@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/RecordAndReplay1/Page_Amazon Inici
 
 WebUI.click(findTestObject('Object Repository/RecordAndReplay1/Page_Amazon Iniciar sesin/div_Se produjo un problema                 _c3c363'))
 
-WebUI.delay(7)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 
