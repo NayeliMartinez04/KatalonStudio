@@ -23,25 +23,14 @@ WebUI.navigateToUrl('https://www.amazon.com/ap/signin?_encoding=UTF8&language=es
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'), 0)
 
-WebUI.setText(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'), 
-    'nayeliangelicamartinezmoreta@gmail.com')
-
+WebUI.setText(findTestObject('Object Repository/RecordAndReplay2/Script2/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'), 
+    'nayeli.martinez@solvex.com')
 WebUI.verifyElementClickable(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'))
 
-WebUI.click(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'))
+WebUI.click(findTestObject('Object Repository/RecordAndReplay2/Script2/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit'), 0)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password'), 
-    'aeHFOx8jV/A=')
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password'))
-
-WebUI.click(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit'))
-
-WebUI.click(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/div_Se produjo un problema                 _c3c363'))
+WebUI.click(findTestObject('Object Repository/RecordAndReplay2/Script2/Page_Amazon Iniciar sesin/div_Se produjo un problema                 _cb4f21'))
 
 WebUI.delay(3)
 
 WebUI.closeBrowser()
-
