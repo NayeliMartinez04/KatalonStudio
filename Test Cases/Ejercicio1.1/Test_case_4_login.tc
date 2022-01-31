@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Login verificacion (contraseña vacia)</description>
    <name>Test_case_4_login</name>
-   <tag></tag>
+   <tag>Login verificacion</tag>
    <comment></comment>
    <testCaseGuid>36b083ee-c151-4d3d-8fd2-2c35d294b515</testCaseGuid>
 </TestCaseEntity>

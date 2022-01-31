@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Login incorrecto (correo incorrecto)</description>
    <name>Test_case_2_login</name>
-   <tag></tag>
+   <tag>Login</tag>
    <comment></comment>
    <testCaseGuid>e15a6737-508a-425a-9aa8-7ed5c85afb9a</testCaseGuid>
 </TestCaseEntity>

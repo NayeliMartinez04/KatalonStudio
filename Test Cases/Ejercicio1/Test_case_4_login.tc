@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Login incorrecto (contraseña vacia)</description>
    <name>Test_case_4_login</name>
-   <tag></tag>
+   <tag>Login</tag>
    <comment></comment>
    <testCaseGuid>f2c742cf-454b-44d0-b2a4-b671ae69771a</testCaseGuid>
 </TestCaseEntity>

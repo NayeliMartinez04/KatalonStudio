@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login verificacion (correo vacio)</description>
+   <name>Test_case_5_login</name>
+   <tag>Login verificacion</tag>
+   <comment></comment>
+   <testCaseGuid>2a80bcc3-8a90-4437-9f39-2b05f63e964c</testCaseGuid>
+</TestCaseEntity>

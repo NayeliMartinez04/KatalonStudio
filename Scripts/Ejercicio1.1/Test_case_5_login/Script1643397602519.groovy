@@ -21,21 +21,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/ap/signin?_encoding=UTF8&language=es&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26action%3Dsign-out%26language%3Des%26path%3D%252Fgp%252Fyourstore%252Fhome%26ref_%3Dnav_AccountFlyout_signout%26signIn%3D1%26useRedirectOnSuccess%3D1')
 
-WebUI.setText(findTestObject('Object Repository/RecordAndReplay1/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'), 
-    Username)
+WebUI.verifyElementPresent(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'), 0)
 
-WebUI.click(findTestObject('Object Repository/RecordAndReplay1/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'))
+WebUI.click(findTestObject('Object Repository/RecorAndReplay5/Script/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'))
 
-WebUI.click(findTestObject('Object Repository/RecordAndReplay1/Page_Amazon Iniciar sesin/div_Habilita las cookies para continuar    _0980be'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/RecordAndReplay1/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password'), 
-    Password)
+WebUI.click(findTestObject('Object Repository/RecorAndReplay5/Script/Page_Amazon Iniciar sesin/div_Escriba su correo electrnico o su nmero_20b649'))
 
-WebUI.click(findTestObject('Object Repository/RecordAndReplay1/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit'))
-
-WebUI.click(findTestObject('Object Repository/RecordAndReplay1/Page_Amazon Iniciar sesin/div_Se produjo un problema                 _c3c363'))
-
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.closeBrowser()
-

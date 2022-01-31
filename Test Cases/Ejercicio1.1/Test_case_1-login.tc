@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Login verificacion (contraseña incorrecta)</description>
    <name>Test_case_1-login</name>
-   <tag></tag>
+   <tag>Login verificacion </tag>
    <comment></comment>
    <testCaseGuid>a45c7dec-b026-4d2d-93af-4ff0b8751b6e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>71ce5bb9-aef5-46da-b8b0-2be619ba83c8</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1f36087d-8da3-49f0-9aa0-ee7a22807588</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
 </TestCaseEntity>
