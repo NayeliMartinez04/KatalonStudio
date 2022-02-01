@@ -5,4 +5,18 @@
    <tag>Login verificacion</tag>
    <comment></comment>
    <testCaseGuid>133ebaf1-1ec8-4ec5-8a61-d4c2601b2530</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e40bfac-4673-455f-93bb-7475e8f3916a</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d3cc95d6-6d6e-437c-a648-80eb6abb116a</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
 </TestCaseEntity>

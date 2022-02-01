@@ -25,7 +25,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/RecordAndReplay1/Sc
     0)
 
 WebUI.setText(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'), 
-    GlobalVariable.Username)
+    GlobalVariable.UsernameC)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'))
 
@@ -35,7 +35,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/RecordAndReplay1/Sc
     0)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password'), 
-    GlobalVariable.Password)
+    GlobalVariable.PasswordI)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password'))
 

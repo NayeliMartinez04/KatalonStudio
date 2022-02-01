@@ -7,11 +7,51 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>findTestData('Data1').getValue(1, 1)</initValue>
-      <name>Username</name>
+      <name>UsernameC</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>findTestData('Data1').getValue(2, 1)</initValue>
-      <name>Password</name>
+      <name>PasswordI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Data1').getValue(1, 2)</initValue>
+      <name>UsernameI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Data1').getValue(2, 2)</initValue>
+      <name>PasswordC</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Data1').getValue(1, 3)</initValue>
+      <name>UsernameP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Data1').getValue(2, 3)</initValue>
+      <name>PasswordP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Data1').getValue(1, 4)</initValue>
+      <name>UsernameC2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Data1').getValue(2, 4)</initValue>
+      <name>PasswordE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Data1').getValue(1, 5)</initValue>
+      <name>UsernameE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Data1').getValue(2, 5)</initValue>
+      <name>PasswordC2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
