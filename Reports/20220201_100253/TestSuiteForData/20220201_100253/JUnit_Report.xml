@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteForData" time="114.815" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuiteForData" tests="1" failures="0" errors="0" time="114.815" skipped="0" timestamp="2022-02-01 10:03:17" hostname="Nayeli Martinez - 192.168.0.19" id="Test Suites/TestSuiteForData">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nayeli Martinez\\git\\KatalonStudio\\Reports\\20220201_100253\\TestSuiteForData\\20220201_100253"/>
+         <property name="logFiles" value="C:\\Users\\Nayeli Martinez\\git\\KatalonStudio\\Reports\\20220201_100253\\TestSuiteForData\\20220201_100253\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nayeli Martinez - 192.168.0.19"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="192.168.0.19"/>
+         <property name="sessionId" value="e14c4751dfa5e4b872627786b727ee9f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Ejercicio1.1/Test_case_1-login" time="113.25" classname="Test Cases/Ejercicio1.1/Test_case_1-login" status="PASSED">
+         <system-out><![CDATA[2022-02-01 10:03:19 - [TEST_CASE][PASSED] - Test Cases/Ejercicio1.1/Test_case_1-login: Test Cases/Ejercicio1.1/Test_case_1-login
+
+2022-02-01 10:03:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-01 10:03:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-01 10:03:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-01 10:04:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-01 10:04:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/ap/signin?_encoding=UTF8&language=es&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26action%3Dsign-out%26language%3Des%26path%3D%252Fgp%252Fyourstore%252Fhome%26ref_%3Dnav_AccountFlyout_signout%26signIn%3D1%26useRedirectOnSuccess%3D1"): Navigate to 'https://www.amazon.com/ap/signin?_encoding=UTF8&language=es&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26action%3Dsign-out%26language%3Des%26path%3D%252Fgp%252Fyourstore%252Fhome%26ref_%3Dnav_AccountFlyout_signout%26signIn%3D1%26useRedirectOnSuccess%3D1' successfully
+
+2022-02-01 10:04:40 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/ap/signin?_encoding=UTF8&language=es&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26action%3Dsign-out%26language%3Des%26path%3D%252Fgp%252Fyourstore%252Fhome%26ref_%3Dnav_AccountFlyout_signout%26signIn%3D1%26useRedirectOnSuccess%3D1' successfully
+
+2022-02-01 10:04:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0"), 0): Object 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0' is present
+
+2022-02-01 10:04:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-01 10:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0' is present
+
+2022-02-01 10:04:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0"), UsernameC): Text 'nayeliangelicamartinezmoreta@gmail.com' is set on object 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'
+
+2022-02-01 10:04:59 - [MESSAGE][PASSED] - Text 'nayeliangelicamartinezmoreta@gmail.com' is set on object 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'
+
+2022-02-01 10:04:59 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0")): Object 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0' is clickable
+
+2022-02-01 10:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0' is clickable
+
+2022-02-01 10:05:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0")): Object: 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0' is clicked on
+
+2022-02-01 10:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0' is clicked on
+
+2022-02-01 10:05:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit"), 0): Object 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit' is present
+
+2022-02-01 10:05:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-01 10:05:02 - [MESSAGE][PASSED] - Object 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit' is present
+
+2022-02-01 10:05:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password"), PasswordI): Text ****** has been set on object 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password'
+
+2022-02-01 10:05:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password'
+
+2022-02-01 10:05:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password")): Object 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password' is clickable
+
+2022-02-01 10:05:04 - [MESSAGE][PASSED] - Object 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password' is clickable
+
+2022-02-01 10:05:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit")): Object: 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit' is clicked on
+
+2022-02-01 10:05:04 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit' is clicked on
+
+2022-02-01 10:05:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/div_Se produjo un problema                 _c3c363")): Object: 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/div_Se produjo un problema                 _c3c363' is clicked on
+
+2022-02-01 10:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordAndReplay1/Script1/Page_Amazon Iniciar sesin/div_Se produjo un problema                 _c3c363' is clicked on
+
+2022-02-01 10:05:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-01 10:05:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-01 10:05:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-01 10:05:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-01 10:03:17 - [TEST_SUITE][PASSED] - TestSuiteForData: Test Cases/Ejercicio1.1/Test_case_1-login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
