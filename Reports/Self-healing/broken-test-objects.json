@@ -29,6 +29,256 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Log_out/SpyLog_out/Page_/a_Sign Out_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Amazon.com  audifonos bluetooth inalambricos/img_Destacado de nuestras marcas_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span[3]/div[2]/div[4]/div/div/div/div/div/div/div/div/div/div[2]/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027Anuncio Patrocinado - Poly - Auriculares inalámbricos Voyager 4310 UC (Plantronics) – Auriculares de una sola oreja con mi...\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Amazon.com  audifonos bluetooth inalambricos/img_Destacado de nuestras marcas_s-image_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_7cb554",
+      "brokenLocator": "//iframe[@id\u003d\u0027pp-eUqbll-67\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027apx-content\u0027]/div/div[2]/div[2]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_7cb554_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_7cb554",
+      "brokenLocator": "//iframe[@id\u003d\u0027pp-eUqbll-67\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_7cb554_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0",
+      "brokenLocator": "aye",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Carrito de compras de amazon.com/input_Este pedido es un regalo_proceedToRet_7a137f",
+      "brokenLocator": "//input[@name\u003d\u0027proceedToRetailCheckout\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Carrito de compras de amazon.com/input_Este pedido es un regalo_proceedToRet_7a137f_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmzon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_165ee9",
+      "brokenLocator": "//iframe[@id\u003d\u0027pp-tTNd5R-67\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027apx-content\u0027]/div/div[2]/div[2]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmzon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_165ee9_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmzon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber",
+      "brokenLocator": "//input[@id\u003d\u0027pp-qscZPm-15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmzon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmzon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName",
+      "brokenLocator": "//input[@id\u003d\u0027pp-qscZPm-17\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmzon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmzon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/button_Cancelar",
+      "brokenLocator": "//button[@id\u003d\u0027pp-qscZPm-24-announce\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027¿Qué es esto?\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmzon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/button_Cancelar_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmzon/Page_Amazon.com  laptop/img_Juegos_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span[3]/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div[2]/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027Anuncio Patrocinado - Samsung Galaxy Book Pro laptop, Windows 11 Intel Evo Platform, pantalla AMOLED de 15.6 pulgadas, 11ª...\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmzon/Page_Amazon.com  laptop/img_Juegos_s-image_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmzon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Amazon acepta las principales tarjeta_387d7f",
+      "brokenLocator": "(//input[@type\u003d\u0027submit\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmzon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Amazon acepta las principales tarjeta_387d7f_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ContinuacionCompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_338dbe",
+      "brokenLocator": "//iframe[@id\u003d\u0027pp-7OMRQI-67\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027apx-content\u0027]/div/div[2]/div[2]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ContinuacionCompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_338dbe_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ContinuacionCompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01",
+      "brokenLocator": "//span[@id\u003d\u0027pp-eXuwum-21\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Fecha de vencimiento\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ContinuacionCompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ContinuacionCompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_02",
+      "brokenLocator": "//a[@id\u003d\u0027pp-eXuwum-18_1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027a-popover-2\u0027]/div/div/ul/li[2]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ContinuacionCompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_02_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ContinuacionCompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_2022",
+      "brokenLocator": "//span[@id\u003d\u0027pp-eXuwum-22\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Fecha de vencimiento\u0027])[1]/following::span[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ContinuacionCompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_2022_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ContinuacionCompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_2027",
+      "brokenLocator": "//a[@id\u003d\u0027pp-eXuwum-20_5\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027a-popover-3\u0027]/div/div/ul/li[6]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ContinuacionCompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_2027_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ContinuacionCompraAmazon/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ContinuacionCompraAmazon/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Amazon.com  laptop/img_Juegos_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span[3]/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div[2]/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027Anuncio Patrocinado - Samsung Galaxy Book Pro laptop, Windows 11 Intel Evo Platform, pantalla AMOLED de 15.6 pulgadas, 11ª...\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Amazon.com  laptop/img_Juegos_s-image_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_3ccd25",
+      "brokenLocator": "//iframe[@id\u003d\u0027pp-Hp5bjH-67\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027apx-content\u0027]/div/div[2]/div[2]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_3ccd25_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber",
+      "brokenLocator": "//input[@id\u003d\u0027pp-XqX9ar-15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName",
+      "brokenLocator": "//input[@id\u003d\u0027pp-XqX9ar-17\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01",
+      "brokenLocator": "//span[@id\u003d\u0027pp-XqX9ar-21\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Fecha de vencimiento\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_02",
+      "brokenLocator": "//a[@id\u003d\u0027pp-XqX9ar-18_1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027a-popover-2\u0027]/div/div/ul/li[2]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_02_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_2022",
+      "brokenLocator": "//span[@id\u003d\u0027pp-XqX9ar-22\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Fecha de vencimiento\u0027])[1]/following::span[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_2022_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_2027",
+      "brokenLocator": "//a[@id\u003d\u0027pp-XqX9ar-20_5\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027a-popover-3\u0027]/div/div/ul/li[6]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_2027_idRelative.png"
     }
   ]
 }
