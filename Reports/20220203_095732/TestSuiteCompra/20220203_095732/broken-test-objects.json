@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CompraAmazon/Page_Amazon.com  laptop/img_Juegos_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span[3]/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div[2]/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027Anuncio Patrocinado - Samsung Galaxy Book Pro laptop, Windows 11 Intel Evo Platform, pantalla AMOLED de 15.6 pulgadas, 11ª...\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220203_095732/TestSuiteCompra/20220203_095732/Object Repository/CompraAmazon/Page_Amazon.com  laptop/img_Juegos_s-image_img.png"
+    }
+  ]
+}

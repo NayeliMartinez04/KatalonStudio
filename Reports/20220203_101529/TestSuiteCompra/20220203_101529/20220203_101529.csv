@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteCompra,Chrome 97.0.4692.99,,,2022-02-03 10:15:36,2022-02-03 10:25:28,9m - 52.245s,PASSED
+,,,,,,,
+Test Cases/Ejercicio3/TestCaseCompra,Chrome 97.0.4692.99,,,2022-02-03 10:15:36,2022-02-03 10:25:28,9m - 51.646s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-03 10:15:37,2022-02-03 10:15:44,7.140s,PASSED
+"navigateToUrl(""https://www.amazon.com/ap/signin?_encoding=UTF8&language=es&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26action%3Dsign-out%26language%3Des%26path%3D%252Fgp%252Fyourstore%252Fhome%26ref_%3Dnav_AccountFlyout_signout%26signIn%3D1%26useRedirectOnSuccess%3D1"")",Chrome 97.0.4692.99,,,2022-02-03 10:15:44,2022-02-03 10:15:47,3.114s,PASSED
+maximizeWindow(),Chrome 97.0.4692.99,,,2022-02-03 10:15:47,2022-02-03 10:15:48,0.260s,PASSED
+"verifyElementPresent(findTestObject(""CompraAmazon/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0""), 0)",Chrome 97.0.4692.99,,,2022-02-03 10:15:48,2022-02-03 10:15:49,0.939s,PASSED
+"setText(findTestObject(""Object Repository/CompraAmazon/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0""), Username)",Chrome 97.0.4692.99,,,2022-02-03 10:15:49,2022-02-03 10:15:54,5.410s,PASSED
+"verifyElementClickable(findTestObject(""CompraAmazon/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0""))",Chrome 97.0.4692.99,,,2022-02-03 10:15:54,2022-02-03 10:15:54,0.438s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0""))",Chrome 97.0.4692.99,,,2022-02-03 10:15:54,2022-02-03 10:15:56,1.220s,PASSED
+"verifyElementPresent(findTestObject(""CompraAmazon/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password""), 0)",Chrome 97.0.4692.99,,,2022-02-03 10:15:56,2022-02-03 10:15:56,0.828s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CompraAmazon/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password""), Password)",Chrome 97.0.4692.99,,,2022-02-03 10:15:56,2022-02-03 10:15:57,0.805s,PASSED
+"verifyElementClickable(findTestObject(""CompraAmazon/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit""))",Chrome 97.0.4692.99,,,2022-02-03 10:15:57,2022-02-03 10:15:58,0.425s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit""))",Chrome 97.0.4692.99,,,2022-02-03 10:15:58,2022-02-03 10:15:58,0.533s,PASSED
+"verifyElementClickable(findTestObject(""CompraAmazon/Page_/div_window.navmet.tmpnew Date()            _9630da""))",Chrome 97.0.4692.99,,,2022-02-03 10:15:58,2022-02-03 10:16:02,3.963s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_/div_window.navmet.tmpnew Date()            _9630da""))",Chrome 97.0.4692.99,,,2022-02-03 10:16:02,2022-02-03 10:16:04,1.678s,PASSED
+"verifyElementPresent(findTestObject(""CompraAmazon/Page_/input_Todos_field-keywords""), 0)",Chrome 97.0.4692.99,,,2022-02-03 10:16:04,2022-02-03 10:16:05,1.484s,PASSED
+"setText(findTestObject(""Object Repository/CompraAmazon/Page_/input_Todos_field-keywords""), ""lap"")",Chrome 97.0.4692.99,,,2022-02-03 10:16:05,2022-02-03 10:16:06,0.841s,PASSED
+"verifyElementClickable(findTestObject(""CompraAmazon/Page_/div_laptop en Computadoras""))",Chrome 97.0.4692.99,,,2022-02-03 10:16:06,2022-02-03 10:16:07,0.830s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_/div_laptop en Computadoras""))",Chrome 97.0.4692.99,,,2022-02-03 10:16:07,2022-02-03 10:16:13,5.722s,PASSED
+"verifyElementClickable(findTestObject(""CompraAmazon/Page_Amazon.com  laptop/img_Juegos_s-image""))",Chrome 97.0.4692.99,,,2022-02-03 10:16:13,2022-02-03 10:16:45,31.833s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_Amazon.com  laptop/img_Juegos_s-image""))",Chrome 97.0.4692.99,,,2022-02-03 10:16:45,2022-02-03 10:17:22,37.850s,PASSED
+"verifyElementClickable(findTestObject(""CompraAmazon/Page_Amazon.com Samsung Galaxy Book Pro lap_f797b1/input_Cantidad_submit.add-to-cart""))",Chrome 97.0.4692.99,,,2022-02-03 10:17:22,2022-02-03 10:17:24,1.660s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_Amazon.com Samsung Galaxy Book Pro lap_f797b1/input_Cantidad_submit.add-to-cart""))",Chrome 97.0.4692.99,,,2022-02-03 10:17:24,2022-02-03 10:17:25,1.114s,PASSED
+"verifyElementClickable(findTestObject(""CompraAmazon/Page_Amazon.com Samsung Galaxy Book Pro lap_f797b1/input_US899.99_a-button-input""))",Chrome 97.0.4692.99,,,2022-02-03 10:17:25,2022-02-03 10:17:28,2.339s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_Amazon.com Samsung Galaxy Book Pro lap_f797b1/input_US899.99_a-button-input""))",Chrome 97.0.4692.99,,,2022-02-03 10:17:28,2022-02-03 10:17:31,3.398s,PASSED
+"verifyElementClickable(findTestObject(""CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Amazon acepta las principales tarjeta_387d7f""))",Chrome 97.0.4692.99,,,2022-02-03 10:17:31,2022-02-03 10:17:32,0.588s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Amazon acepta las principales tarjeta_387d7f""))",Chrome 97.0.4692.99,,,2022-02-03 10:17:32,2022-02-03 10:17:32,0.505s,PASSED
+"setText(findTestObject(""Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber""), NumberV)",Chrome 97.0.4692.99,,,2022-02-03 10:17:32,2022-02-03 10:19:06,1m - 34.314s,PASSED
+"setText(findTestObject(""Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName""), NameV)",Chrome 97.0.4692.99,,,2022-02-03 10:19:06,2022-02-03 10:20:40,1m - 33.904s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01""))",Chrome 97.0.4692.99,,,2022-02-03 10:20:40,2022-02-03 10:21:43,1m - 2.946s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_02""))",Chrome 97.0.4692.99,,,2022-02-03 10:21:43,2022-02-03 10:22:46,1m - 2.842s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_2022""))",Chrome 97.0.4692.99,,,2022-02-03 10:22:46,2022-02-03 10:23:49,1m - 2.839s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_2027""))",Chrome 97.0.4692.99,,,2022-02-03 10:23:49,2022-02-03 10:24:52,1m - 2.921s,PASSED
+"click(findTestObject(""Object Repository/CompraAmazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Cancelar_ppw-widgetEventAddCreditCardEvent""))",Chrome 97.0.4692.99,,,2022-02-03 10:24:52,2022-02-03 10:25:24,31.839s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-02-03 10:25:24,2022-02-03 10:25:27,3.079s,PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-03 10:25:27,2022-02-03 10:25:28,1.063s,PASSED
